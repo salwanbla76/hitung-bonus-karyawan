@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 
 # --- INIT --- 
@@ -78,4 +77,5 @@ elif st.session_state.slide == 3:
 
     if st.button("Ulangi"):
         st.session_state.slide = 1
+
         st.rerun()
