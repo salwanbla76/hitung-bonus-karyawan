@@ -53,7 +53,7 @@ elif st.session_state.slide == 2:
 
 # --- SLIDE 3 ---
 elif st.session_state.slide == 3:
-    st.header("📊 Hasil Perhitungan")
+    st.header("Hasil Perhitungan")
 
     gaji = st.session_state.gaji
     lama = st.session_state.lama
@@ -79,3 +79,4 @@ elif st.session_state.slide == 3:
         st.session_state.slide = 1
 
         st.rerun()
+
