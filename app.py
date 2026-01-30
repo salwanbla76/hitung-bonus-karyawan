@@ -49,7 +49,7 @@ elif st.session_state.slide == 2:
             st.rerun()
 
           except ValueError:
-            st.error("Gaji wajib diisi!!")
+            st.error("Gaji wajib diisi menggunakan angka!!")
 
 # --- SLIDE 3 ---
 elif st.session_state.slide == 3:
@@ -79,4 +79,5 @@ elif st.session_state.slide == 3:
         st.session_state.slide = 1
 
         st.rerun()
+
 
